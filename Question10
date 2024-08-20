@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Highlight</title>
+    </head>
+    <body>
+        <p><mark >HTML & CSS is awesome</mark></p>
+        
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form input elements</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Registeration Form</h2><br>
+        <form>
+            <label for="name" >Name</label>
+            <input type="text" id="name"/>
+            <p>
+                <label for="mail" >Email</label>
+                <input type="email" id="mail"/>
+            </p>
+            <p>
+                <label for="pwd" >Password</label>
+                <input type="password" id="pwd"/>
+            </p>
+            <p>
+                <label for="gender" >Gender</label>
+                <input type="radio" id="gender"/>Male
+                <input type="radio" id="gender"/>Female
+            </p>
+            <p>
+                <label for="dob" >Date of birth</label>
+                <input type="date" id="dob"/>
+            </p>
+            <p>
+                <label for="phn" >Phone number</label>
+                <input type="tel" id="phn" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required placeholder="123-456-7890"/>
+            </p>
+            <p>
+                <label for="address">Address</label><br>
+                <input type="text" Style="width:300px; height: 150px;" id="address"/>
+            </p>
+            <p>
+                <label for="pin" >Pincode</label>
+                <input type="number" id="pin"/>
+            </p>
+            
+              <textarea name="msg" Style="width: 300px; height: 150px;">Write a message here</textarea>
+            <p>
+                <label for="upload" >Upload your file</label>
+                <input type="file" id="upload"/>
+            </p>
+            <p>
+                <label for="set" ></label>
+                <input type="reset" id="set"/>
+            
+            
+                <label for="login" ></label>
+                <input type="submit" id="login"/>
+            </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Radio button</title>
+    </head>
+    <body>
+        <form>
+            <label for="employee">Employee Type</label>
+            <input type="radio" id="employee" name="employee" value="Salaried"/>Salaried
+            <input type="radio" id="employee" name="employee" value="own business"/>own business
+        </form>
+    </body>
+</html>

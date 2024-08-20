@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>google in new tab</title>
+    </head>
+    <body>
+        <a href="https://google.com" target="_blank">google</a>
+    </body>
+</html>

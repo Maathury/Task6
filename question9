@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form input elements</title>
+    </head>
+    <body>
+        <h2 style="text-align: center;">Registeration Form</h2><br>
+        <form>
+            <label for="name" >Name</label>
+            <input type="text" id="name" value="Maathury"/>
+            <p>
+                <label for="mail" >Email</label>
+                <input type="email" id="mail" value="maathu@gmail.com"/>
+            </p>
+            <p>
+                <label for="pwd" >Password</label>
+                <input type="password" id="pwd" value="990908"/>
+            </p>
+           
+            <p>
+                <label for="dob" >Date of birth</label>
+                <input type="text" id="dob" value="09/11/2000"/>
+            </p>
+            <p>
+                <label for="phn" >Phone number</label>
+                <input type="tel" id="phn" value="8228277201"/>
+            </p>
+            <p>
+                <label for="address">Address</label><br>
+                <input type="text" Style="width:300px; height: 150px;" id="address" value="101-W,Sree vilas,Anna nagar,Chennai"/>
+            </p>
+            <p>
+                <label for="pin" >Pincode</label>
+                <input type="number" id="pin" value="600012"/>
+            </p>
+            
+              <textarea name="msg" Style="width: 300px; height: 150px;">Write a message here</textarea>
+            
+        </form>
+    </body>
+</html>
